@@ -1,0 +1,42 @@
+[
+  {
+    "Patient": null,
+    "Doctor": null,
+    "DateTimeFrom": "0001-01-01T00:00:00",
+    "DateTimeTo": "0001-01-01T00:00:00",
+    "Description": "Test",
+    "Id": 1,
+    "CreatedAt": "2025-05-29T23:30:01.126789+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "Patient": null,
+    "Doctor": null,
+    "DateTimeFrom": "0001-01-01T00:00:00",
+    "DateTimeTo": "0001-01-01T00:00:00",
+    "Description": "Test",
+    "Id": 1,
+    "CreatedAt": "2025-05-29T23:30:16.261683+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "Patient": null,
+    "Doctor": null,
+    "DateTimeFrom": "0001-01-01T00:00:00",
+    "DateTimeTo": "0001-01-01T00:00:00",
+    "Description": "Test",
+    "Id": 1,
+    "CreatedAt": "2025-05-29T23:30:28.849558+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "Patient": null,
+    "Doctor": null,
+    "DateTimeFrom": "0001-01-01T00:00:00",
+    "DateTimeTo": "0001-01-01T00:00:00",
+    "Description": "Test",
+    "Id": 1,
+    "CreatedAt": "2025-05-29T23:31:29.708584+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  }
+]
