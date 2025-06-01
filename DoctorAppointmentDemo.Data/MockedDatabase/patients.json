@@ -1,1 +1,14 @@
-﻿
+[
+  {
+    "IllnessType": 0,
+    "AdditionalInfo": null,
+    "Address": null,
+    "Name": "New test patient",
+    "Surname": "",
+    "Phone": null,
+    "Email": null,
+    "Id": 7,
+    "CreatedAt": "2025-06-02T00:49:12.109003+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  }
+]

@@ -11,5 +11,18 @@
         public DateTime DateTimeTo { get; set; }
 
         public string? Description { get; set; }
+        
+        public Appointment() {}
+        
+        public Appointment(string description)
+        {
+            Description = description;
+        }
+
+        public override string ToString()
+        {
+            return $"[Id: {Id}, CreatedAt: {CreatedAt}, Description: {Description}" +
+                   $", Patient: {Patient?.Name}, Doctor: {Doctor?.Name}]";
+        }
     }
 }

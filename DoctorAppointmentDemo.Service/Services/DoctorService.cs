@@ -26,7 +26,14 @@ namespace MyDoctorAppointment.Service.Services
 
         public Doctor? Get(int id)
         {
-            return _doctorRepository.GetById(id);
+            Doctor doctor = _doctorRepository.GetById(id);
+
+            if (doctor == null)
+            {
+                throw new Exception($"Doctor with this id '{id}' does not exist.");
+            }
+
+            return doctor;
         }
 
         public IEnumerable<Doctor> GetAll()

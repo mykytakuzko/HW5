@@ -26,7 +26,13 @@ public class PatientService : IPatientService
 
     public Patient? Get(int id)
     {
-        return _patientRepository.GetById(id);
+        Patient patient = _patientRepository.GetById(id);
+
+        if (patient == null)
+        {
+            throw new Exception($"Patient with this id '{id}' does not exist.");
+        }
+        return patient;
     }
 
     public IEnumerable<Patient> GetAll()

@@ -26,7 +26,14 @@ public class AppointmentService : IAppointmentService
 
     public Appointment? Get(int id)
     {
-        return _appointmentsRepository.GetById(id);
+        Appointment appointment = _appointmentsRepository.GetById(id);
+
+        if (appointment == null)
+        {
+            throw new Exception($"Appointment with this id '{id}' does not exist.");
+        }
+
+        return appointment;
     }
 
     public IEnumerable<Appointment> GetAll()
