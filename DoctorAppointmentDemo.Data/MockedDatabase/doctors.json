@@ -82,5 +82,29 @@
     "Id": 13,
     "CreatedAt": "2025-06-01T23:17:37.145896+03:00",
     "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 0,
+    "Experience": 0,
+    "Salary": 0.0,
+    "Name": "New test doctor",
+    "Surname": "",
+    "Phone": null,
+    "Email": null,
+    "Id": 14,
+    "CreatedAt": "2025-07-03T16:46:58.69032+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 0,
+    "Experience": 0,
+    "Salary": 0.0,
+    "Name": "New test doctor",
+    "Surname": "",
+    "Phone": null,
+    "Email": null,
+    "Id": 15,
+    "CreatedAt": "2025-07-03T17:46:38.837916+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
   }
 ]

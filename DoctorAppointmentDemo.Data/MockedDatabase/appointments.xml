@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAppointment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Appointment>
+    <Id>1</Id>
+    <CreatedAt>0001-01-01T00:00:00</CreatedAt>
+    <UpdatedAt>2025-07-03T16:46:05.109348+03:00</UpdatedAt>
+    <DateTimeFrom>0001-01-01T00:00:00</DateTimeFrom>
+    <DateTimeTo>0001-01-01T00:00:00</DateTimeTo>
+    <Description>Test description</Description>
+  </Appointment>
+  <Appointment>
+    <Id>2</Id>
+    <CreatedAt>2025-07-03T16:46:12.94227+03:00</CreatedAt>
+    <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+    <DateTimeFrom>0001-01-01T00:00:00</DateTimeFrom>
+    <DateTimeTo>0001-01-01T00:00:00</DateTimeTo>
+    <Description>Test description №2</Description>
+  </Appointment>
+</ArrayOfAppointment>

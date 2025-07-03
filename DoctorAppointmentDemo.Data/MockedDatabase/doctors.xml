@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDoctor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Doctor>
+    <Id>1</Id>
+    <CreatedAt>0001-01-01T00:00:00</CreatedAt>
+    <UpdatedAt>2025-07-03T16:45:10.412509+03:00</UpdatedAt>
+    <Name>Update doctor</Name>
+    <Surname />
+    <DoctorType>Unknown</DoctorType>
+    <Experience>0</Experience>
+    <Salary>0</Salary>
+  </Doctor>
+</ArrayOfDoctor>

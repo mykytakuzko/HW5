@@ -1,3 +1,4 @@
+using DoctorAppointmentDemo.Data.Serialization;
 using MyDoctorAppointment.Data.Interfaces;
 using MyDoctorAppointment.Service.Interfaces;
 using MyDoctorAppointment.Data.Repositories;
@@ -9,9 +10,9 @@ public class AppointmentService : IAppointmentService
 {
     private readonly IAppointmentRepository _appointmentsRepository;
 
-    public AppointmentService()
+    public AppointmentService(ISerialization serializer)
     {
-        _appointmentsRepository = new AppointmentRepository();
+        _appointmentsRepository = new AppointmentRepository(serializer);
     }
 
     public Appointment Create(Appointment appointment)

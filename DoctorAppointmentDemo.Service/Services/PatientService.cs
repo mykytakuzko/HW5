@@ -1,3 +1,4 @@
+using DoctorAppointmentDemo.Data.Serialization;
 using MyDoctorAppointment.Data.Interfaces;
 using MyDoctorAppointment.Data.Repositories;
 using MyDoctorAppointment.Domain.Entities;
@@ -9,9 +10,9 @@ public class PatientService : IPatientService
 {
     private readonly IPatientRepository _patientRepository;
 
-    public PatientService()
+    public PatientService(ISerialization serializer)
     {
-        _patientRepository = new PatientRepository();
+        _patientRepository = new PatientRepository(serializer);
     }
 
     public Patient Create(Patient patient)

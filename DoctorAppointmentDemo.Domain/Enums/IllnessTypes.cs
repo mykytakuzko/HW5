@@ -2,6 +2,8 @@
 {
     public enum IllnessTypes
     {
+        Unknown = 0,
+        
         EyeDisease = 1,
 
         Infection,

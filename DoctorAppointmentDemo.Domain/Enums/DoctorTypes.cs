@@ -2,6 +2,8 @@
 {
     public enum DoctorTypes
     {
+        Unknown = 0,
+        
         Dentist = 1,
 
         Dermatologist,
